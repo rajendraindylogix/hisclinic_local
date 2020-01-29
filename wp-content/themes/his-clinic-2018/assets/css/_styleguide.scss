@@ -1,0 +1,267 @@
+// Fonts
+@include font-face('lato', '../../assets/css/fonts/Lato/Lato-Regular', 400);
+@include font-face('lato', '../../assets/css/fonts/Lato/Lato-Bold', 600);
+@include font-face('lato', '../../assets/css/fonts/Lato/Lato-Black', 800);
+@include font-face('raleway', '../../assets/css/fonts/Raleway/Raleway-Regular', 400);
+@include font-face('raleway', '../../assets/css/fonts/Raleway/Raleway-SemiBold', 500);
+@include font-face('raleway', '../../assets/css/fonts/Raleway/Raleway-Bold', 600);
+
+$font1: 'raleway', Helvetica, Arial, sans-serif;
+$font2: 'lato', Helvetica, Arial, sans-serif;
+
+// Colours
+$dgrey: #252525;
+$pink: #fa1c41;
+$sgrey: #f5f2eb;
+$grey: #606060;
+
+.dgrey{
+    color: $dgrey !important;
+}
+.pink{
+    color: $pink !important;
+}
+.sgrey{
+    color: $sgrey !important;
+}
+.grey{
+    color: $grey !important;
+}
+
+// Headings
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    line-height: 1.03em;
+    margin: 0 0 10px;
+    font-family: $font2;
+    color: $dgrey;
+}
+
+h1, .h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0 0 30px;
+}
+h2, .h2 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0 0 30px;
+}
+h3, .h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+h4, .h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+h5, .h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+h6, .h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+// Content
+a{
+    transition: .3s all;
+
+    &:hover{
+        opacity: .8;
+    }
+}
+p{
+    margin: 10px 0 15px;
+
+    &.small{
+        font-size: 14px;
+    }
+}
+legend {
+	max-width: 100%;
+}
+.pullout{
+    font-size: 18px;
+    font-weight: 600;
+    
+    p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.large{
+    font-size: 18px;
+    
+    p{
+        font-size: 18px;
+    }
+}
+
+// Buttons
+.btn{
+    display: inline-block;
+    width: 176px;
+    min-height: 48px;
+    padding: 13px;
+    font-family: $font2;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: .3px;
+    background-color: transparent;
+    border: 2px solid $pink;
+    border-radius: 0;
+    color: $pink;
+    position: relative;
+    text-align: left;
+    outline: none;
+    transition: all .3s;
+
+    &:hover{
+        opacity: 1;
+        background-color: $pink;
+        color: white;
+        
+        &:after{
+            background-image: url('img/arrow-white.png');
+        }
+    }
+
+    &.filled{
+        background-color: $pink;
+        color: white;
+
+        &:after{
+            content: none;
+        }
+    }
+
+    &.no-arrow{
+        text-align: center;
+
+        &:after{
+            content: none !important;
+        }
+    }
+
+    &.auto{
+        width: auto;
+    }
+
+    &:before{
+        content: '';
+        transition: all .3s;
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        background-image: url('img/arrow-pink.png');
+        background-size: 19px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: all .3s;
+    }
+}
+
+.btn-small{
+    display: inline-block;
+    max-width: 132px;
+    width: 100%;
+    min-height: 24px;
+    padding: 5px 2px 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3em;
+    background-color: transparent;
+    border: 1px solid #DBDCDD;
+    color: $grey;
+    transition: all .3s;
+}
+
+.styleguide{
+    padding: 50px 0;
+
+    .buttons{
+        padding: 20px;
+        background: #c7c7c7;
+        .btn{
+            margin: 0 5px 10px;
+        }
+    }
+}
+
+/* Elementor */
+.elementor-widget-heading{
+    .elementor-heading-title{
+        &.elementor-size-default{
+            @extend .h2;
+        }
+        &.elementor-size-xl{
+            @extend .h1;
+        }
+        &.elementor-size-large{
+            @extend .h3;
+        }
+        &.elementor-size-medium{
+            @extend .h4;
+        }
+        &.elementor-size-small{
+            @extend .h5;
+        }
+    }
+}
+.elementor-widget-button{
+    .elementor-button{
+        @extend .btn;
+    }
+    
+    &.no-arrow{
+        .elementor-button{
+            @extend .no-arrow;
+        }
+    }
+}
+
+@media screen and (max-width: 1175px) {
+
+}
+
+@media screen and (max-width: 991px) {
+    .h1{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 24px;
+    }
+    .h3{
+        font-size: 20px;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .h5{
+        font-size: 18px;
+    }
+    .h6{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}

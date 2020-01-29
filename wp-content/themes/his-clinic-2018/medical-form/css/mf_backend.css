@@ -1,0 +1,10 @@
+.details-inner-fields {
+    padding: 10px;
+    display: block;
+    /* margin: 5px 0px; */
+    background: #fff;
+}
+
+.details-container {
+    border-bottom: 1px solid #f4f4f4;
+}

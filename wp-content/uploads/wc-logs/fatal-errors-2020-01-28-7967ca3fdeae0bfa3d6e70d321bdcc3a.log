@@ -1,0 +1,131 @@
+2020-01-28T06:00:52+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:364
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 364
+
+2020-01-28T06:02:55+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:368
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 368
+
+2020-01-28T06:03:32+00:00 CRITICAL Cannot use [] for reading in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 90
+
+2020-01-28T06:13:45+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:368
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 368
+
+2020-01-28T06:57:17+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:368
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 368
+
+2020-01-28T07:00:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_medical_form_data(), 0 passed in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 91 and exactly 1 expected in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php:974
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php(91): get_medical_form_data()
+#1 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#6 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 974
+
+2020-01-28T07:00:51+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:373
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 373
+
+2020-01-28T07:01:38+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:373
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 373
+
+2020-01-28T07:01:54+00:00 CRITICAL Uncaught Error: Call to a member function get_user() on boolean in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:373
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 373
+
+2020-01-28T07:20:34+00:00 CRITICAL Object of class WP_User could not be converted to string in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 88
+
+2020-01-28T07:22:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:88
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 88
+
+2020-01-28T08:32:58+00:00 CRITICAL syntax error, unexpected '.' in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 110
+
+2020-01-28T09:00:40+00:00 CRITICAL Object of class WP_User could not be converted to string in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 96
+
+2020-01-28T09:11:22+00:00 CRITICAL syntax error, unexpected '$user_info' (T_VARIABLE), expecting ',' or ';' in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 109
+
+2020-01-28T12:17:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\duracelltomi-google-tag-manager\admin\admin.php on line 2
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-28T12:18:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+

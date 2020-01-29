@@ -1,0 +1,43 @@
+{
+    "key": "group_5d1c52c487b3f",
+    "title": "User Fields",
+    "fields": [
+        {
+            "key": "field_5d1c530b4d9dd",
+            "label": "Allow coupons use",
+            "name": "allow_coupons_use",
+            "type": "true_false",
+            "instructions": "Check to allow user use of Coupons on checkout.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Allow coupons use",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "YES",
+            "ui_off_text": "NO"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "user_role",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1562137584
+}

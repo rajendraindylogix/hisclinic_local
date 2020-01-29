@@ -1,0 +1,18 @@
+2020-01-11T04:16:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-includes\Requests\Transport\cURL.php on line 441
+
+2020-01-11T11:15:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-11T11:15:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-11T11:15:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-11T11:38:29+00:00 CRITICAL Cannot declare class Medical_Form_List_New, because the name is already in use in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 195
+
+2020-01-11T11:39:30+00:00 CRITICAL Cannot declare class Medical_Form_List_New, because the name is already in use in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 195
+
+2020-01-11T11:40:33+00:00 CRITICAL Cannot redeclare medical_forms_admin_page_new() (previously declared in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\medical-form\backend-listing-medicalform.php:1564) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 1571
+
+2020-01-11T11:41:41+00:00 CRITICAL Cannot declare class Medical_Form_Index_New, because the name is already in use in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 197
+
+2020-01-11T11:42:19+00:00 CRITICAL Cannot declare class Medical_Form_Single_New, because the name is already in use in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 251
+

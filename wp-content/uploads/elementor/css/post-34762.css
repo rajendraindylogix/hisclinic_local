@@ -1,0 +1,25 @@
+.elementor-34762 .elementor-element.elementor-element-dddc89e{text-align:center;}/* Start custom CSS for page-settings */#breadcrumbs {
+    display: none;
+}
+
+label {
+    font-size: 14px !important;
+}
+
+#gform_1 {
+    width: 75%;
+}
+
+.gform_next_button, .gform_submit_button {
+    float: right;
+    width: 30%;
+}
+.gform_previous_button {
+    float: left;
+    width: 30%;
+    background-color: #606060 !important;
+}
+
+.instruction {
+    display: none;
+}/* End custom CSS */

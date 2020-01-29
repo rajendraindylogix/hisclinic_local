@@ -1,0 +1,10 @@
+2020-01-22T07:15:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-includes\wp-db.php on line 1924
+
+2020-01-22T08:37:46+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 376
+
+2020-01-22T08:47:50+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 376
+
+2020-01-22T11:25:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
+2020-01-22T11:25:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+
