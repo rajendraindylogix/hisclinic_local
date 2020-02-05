@@ -1,0 +1,6 @@
+2020-02-04T07:00:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-includes\Requests\Transport\cURL.php on line 441
+
+2020-02-04T08:28:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-includes\wp-db.php on line 1924
+
+2020-02-04T09:51:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-content\themes\his-clinic-2018\functions.php on line 9
+

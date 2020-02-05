@@ -222,7 +222,7 @@ function render_prescribe_page() {
 
 add_action('admin_menu', 'add_prescribe_admin_page_new');
 function add_prescribe_admin_page_new() {
-    add_submenu_page('prescribe_page.php', 'Prescriptions', 'Prescribe New', 'manage_options', 'prescribe_page_new.php', 'render_prescribe_page_new', 'dashicons-edit', 4);
+    add_submenu_page('prescribe_page.php', 'Prescriptions', 'Prescribe 2.0', 'manage_options', 'prescribe_page_new.php', 'render_prescribe_page_new', 'dashicons-edit', 4);
 };
 function render_prescribe_page_new() {
     include_once('prescribe_page_new.php');

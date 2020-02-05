@@ -2878,9 +2878,14 @@ jQuery(function($){
 
     $( '#hc-send-chat-message-backend' ).on( 'submit', function(e) {
 
+
+        alert('Hellll');
+
         e.preventDefault();
 
         data = $(this).serializeArray();
+
+        console.log(data);
 
         // console.log ( data );
 

@@ -174,6 +174,34 @@ if (!class_exists('Medical_Form')) {
 													<label for="form2-remail"><?php _e($step_19_email_label); ?></label>
 												</div>
 												<div class="animate-input">
+							                        <input type="tel" name="form2_phone" id="form3_rphone" required>
+							                        <label for="form3-rphone">Phone</label>
+							                    </div>
+												<div class="animate-input">
+							                        <input type="text" name="form2_address_1" id="form3_raddress_1" required>
+							                        <label for="form3-raddress_1">Address 1</label>
+							                    </div>
+							                    <div class="animate-input">
+							                        <input type="text" name="form2_address_2" id="form3_raddress_2" required>
+							                        <label for="form3-raddress_2">Address 2</label>
+							                    </div>
+							                    <div class="animate-input">
+							                        <input type="text" name="form2_city" id="form3_rcity" required>
+							                        <label for="form3-rcity">City</label>
+							                    </div>
+							                    <div class="animate-input">
+							                        <input type="text" name="form2_state" id="form3_rstate" required>
+							                        <label for="form3-rstate">State</label>
+							                    </div>
+							                    <div class="animate-input">
+							                        <input type="text" name="form2_postcode" id="form3_rpostcode" required>
+							                        <label for="form3-rpostcode">Postcode</label>
+							                    </div>
+							                    <div class="animate-input">
+							                        <input type="text" name="form2_country" id="form3_rcountry" required>
+							                        <label for="form3-rcountry">Country</label>
+							                    </div>
+												<div class="animate-input">
 													<input type="password" name="form2_password" id="form2-rpassword" required>
 													<label for="form2-rpassword"><?php _e($step_19_password_label); ?></label>
 													<img class="svg eye" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/eye.svg" />
@@ -417,6 +445,13 @@ if (!class_exists('Medical_Form')) {
 		$client_info['first_name'] = $_POST['form2_first_name'];
 		$client_info['last_name'] = $_POST['form2_last_name'];
 		$client_info['email'] = $_POST['form2_email'];
+		$client_info['phone'] = $_POST['form2_phone'];
+		$client_info['address_1'] = $_POST['form2_address_1'];
+		$client_info['address_2'] = $_POST['form2_address_2'];
+		$client_info['city'] = $_POST['form2_city'];
+		$client_info['state'] = $_POST['form2_state'];
+		$client_info['postcode'] = $_POST['form2_postcode'];
+		$client_info['country'] = $_POST['form2_country'];
 		$client_info['password'] = $_POST['form2_password'];
 
 		$suggested_product_url = $_POST['redirection'];
@@ -461,17 +496,16 @@ if (!class_exists('Medical_Form')) {
 					global $woocommerce;
 
 					$address = array(
-					'first_name' => 'Joe',
-					'last_name'  => 'Conlin',
-					'company'    => 'Speed Society',
-					'email'      => 'joe@testing.com',
-					'phone'      => '760-555-1212',
-					'address_1'  => '123 Main st.',
-					'address_2'  => '104',
-					'city'       => 'San Diego',
-					'state'      => 'Ca',
-					'postcode'   => '92121',
-					'country'    => 'US'
+					'first_name' => $client_info['first_name'],
+					'last_name'  => $client_info['last_name'],
+					'email'      => $client_info['email'],
+					'phone'      => $client_info['phone'],
+					'address_1'  => $client_info['address_1'],
+					'address_2'  => $client_info['address_2'],
+					'city'       => $client_info['city'],
+					'state'      => $client_info['state'],
+					'postcode'   => $client_info['postcode'],
+					'country'    => $client_info['country']
 					);
 
 					// Now we create the order

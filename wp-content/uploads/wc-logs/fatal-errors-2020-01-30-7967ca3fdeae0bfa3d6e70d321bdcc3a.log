@@ -1,0 +1,26 @@
+2020-01-30T08:35:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\hisclinic_local\wp-includes\wp-db.php on line 1924
+
+2020-01-30T09:01:45+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 308
+
+2020-01-30T09:02:27+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 308
+
+2020-01-30T09:02:57+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 308
+
+2020-01-30T09:04:30+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 308
+
+2020-01-30T09:20:15+00:00 CRITICAL syntax error, unexpected '?>' in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 307
+
+2020-01-30T09:40:18+00:00 CRITICAL syntax error, unexpected 'wp_reset_query' (T_STRING), expecting ',' or ';' in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 322
+
+2020-01-30T09:46:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::user_id() in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php:301
+Stack trace:
+#0 D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\pc-prescribe.php(228): include_once()
+#1 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(286): render_prescribe_page_new('')
+#2 D:\xampp\htdocs\hisclinic_local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\hisclinic_local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\hisclinic_local\wp-admin\admin.php(224): do_action('prescribe_page_...')
+#5 {main}
+  thrown in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 301
+
+2020-01-30T10:04:44+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in D:\xampp\htdocs\hisclinic_local\wp-content\plugins\pc-prescribe\prescribe_page_new.php on line 308
+

@@ -18642,3 +18642,84 @@ Note: This Add-On requires that sites have an SSL certificate installed.							<
 2020-01-29 17:09:49.094726 - DEBUG --> GFForms::cron(): Done. 
 2020-01-29 20:20:17.496788 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
 2020-01-29 20:20:19.327892 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: {"is_valid_key":"0","expiration_time":0,"version":"1.7.9","url":"","offerings":[]} 
+2020-01-30 19:35:45.636761 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-01-30 19:35:45.665764 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-01-30 19:35:45.675765 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-01-30 19:35:45.675765 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-01-30 19:35:45.675765 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-01-30 19:35:45.676764 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-01-30 19:35:45.676764 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-01-30 19:35:45.678765 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-01-30 19:35:45.943779 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-01-30 19:35:45.943779 - DEBUG --> GFForms::cron(): Done. 
+2020-01-30 19:36:35.388607 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-01-30 19:36:35.388607 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-01-30 19:36:35.394608 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-01-30 19:36:35.395607 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-01-30 19:36:35.395607 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-01-30 19:36:35.395607 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-01-30 19:36:35.395607 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-01-30 19:36:35.397608 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-01-30 19:36:35.400609 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-01-30 19:36:35.400609 - DEBUG --> GFForms::cron(): Done. 
+2020-01-30 20:21:29.522135 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
+2020-01-30 20:21:30.996220 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: {"is_valid_key":"0","expiration_time":0,"version":"1.7.9","url":"","offerings":[]} 
+2020-01-31 17:07:08.526851 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-01-31 17:07:08.547853 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-01-31 17:07:08.554853 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-01-31 17:07:08.554853 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-01-31 17:07:08.554853 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-01-31 17:07:08.554853 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-01-31 17:07:08.555854 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-01-31 17:07:08.556854 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-01-31 17:07:08.743865 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-01-31 17:07:08.744864 - DEBUG --> GFForms::cron(): Done. 
+2020-02-03 17:52:03.275640 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
+2020-02-03 17:52:04.825728 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: {"is_valid_key":"0","expiration_time":0,"version":"1.7.9","url":"","offerings":[]} 
+2020-02-03 17:52:07.477880 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
+2020-02-03 17:52:08.802956 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: {"is_valid_key":"0","expiration_time":0,"version":"1.7.9","url":"","offerings":[]} 
+2020-02-03 17:53:15.193752 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-02-03 17:53:15.193752 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-02-03 17:53:15.202753 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-02-03 17:53:15.203752 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-02-03 17:53:15.203752 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-02-03 17:53:15.203752 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-02-03 17:53:15.204752 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-02-03 17:53:15.206753 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-02-03 17:53:15.314759 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-02-03 17:53:15.314759 - DEBUG --> GFForms::cron(): Done. 
+2020-02-04 18:00:17.635359 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
+2020-02-04 18:03:37.826809 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
+2020-02-04 18:03:42.127055 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: {"is_valid_key":"0","expiration_time":0,"version":"1.7.9","url":"","offerings":[]} 
+2020-02-04 18:03:47.620369 - DEBUG --> GFCommon::post_to_manager(): endpoint: https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php? 
+2020-02-04 18:03:51.304579 - DEBUG --> GFCommon::log_remote_response(): code: 200; body: {"is_valid_key":"0","expiration_time":0,"version":"1.7.9","url":"","offerings":[]} 
+2020-02-04 18:04:09.680632 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-02-04 18:04:09.680632 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-02-04 18:04:09.768636 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-02-04 18:04:09.768636 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-02-04 18:04:09.769637 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-02-04 18:04:09.769637 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-02-04 18:04:09.769637 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-02-04 18:04:09.771636 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-02-04 18:04:10.316668 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-02-04 18:04:10.316668 - DEBUG --> GFForms::cron(): Done. 
+2020-02-05 17:24:25.820816 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-02-05 17:24:25.848818 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-02-05 17:24:25.857819 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-02-05 17:24:25.857819 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-02-05 17:24:25.857819 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-02-05 17:24:25.857819 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-02-05 17:24:25.858819 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-02-05 17:24:25.859818 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-02-05 17:24:26.005826 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-02-05 17:24:26.005826 - DEBUG --> GFForms::cron(): Done. 
+2020-02-05 17:24:40.296644 - DEBUG --> GFForms::cron(): Starting cron. 
+2020-02-05 17:24:40.296644 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2020-02-05 17:24:40.304645 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2020-02-05 17:24:40.305644 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2020-02-05 17:24:40.305644 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2020-02-05 17:24:40.305644 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2020-02-05 17:24:40.306644 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2020-02-05 17:24:40.308645 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2020-02-05 17:24:40.322645 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2020-02-05 17:24:40.322645 - DEBUG --> GFForms::cron(): Done. 
