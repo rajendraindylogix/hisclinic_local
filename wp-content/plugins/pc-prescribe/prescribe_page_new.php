@@ -311,37 +311,85 @@ echo '<input type="hidden" name="page" value="prescribe_page_new.php" />';
 	?>
 			
 			<div id="hc-send-chat-message-backend_<?php echo $customer_id; ?>">
+		        <?php // echo $customer_id; ?>
 		        <div class="label-textarea">
-		            <textarea name="dr_support_chat" id="msg-reply" placeholder="Type your message"></textarea>
+		            <textarea name="dr_support_chat" id="msg-reply_<?php echo $customer_id; ?>" placeholder="Type your message"></textarea>
 		            <input type="hidden" name="action" value="hc_dr_support_send_mesage">
 		            <input type="hidden" name="composer" value="admin">
 		            <input type="hidden" name="user_id" value="<?php echo esc_attr( $customer_id ); ?>">
 		        </div>
-		        <button id="hc-send-chat-submit" class="btn btn-filled"><?php _e( 'Send Message', 'woocommerce' ); ?></button>
+		    	<a href="<?php echo get_admin_url().'/users.php?page=medical-forms-new&user_id='.$customer_id; ?>" class="btn btn-filled ">History</a>
+		    	<a href="#" id="abcd_<?php echo $customer_id; ?>" data-id="<?php echo $customer_id; ?>" class="btn btn-filled ">Send Message</a>
+		        <!-- <button id="abcd" class="btn btn-filled"><?php // _e( 'Send Message', 'woocommerce' ); ?></button> -->
 		    </div>
-		    <a href="<?php echo get_admin_url().'/users.php?page=medical-forms-new&user_id='.$customer_id; ?>" class="btn btn-filled ">History</a>
 	
 			<script type="text/javascript">
-				// $(document).ready(function() {
-				// 	$( '#hc-send-chat-message-backend_<?php// echo $customer_id; ?>' ).on( 'submit', function(e) {
-				//         e.preventDefault();
-				//         data = $(this).serializeArray();
-				//         // console.log ( data );
-				//         $( '#hc-send-chat-submit' ).attr( 'disabled', 'disabled' ).text('Sending...');
-				//         $.post(new_wp_paths.new_admin, data, function (data, textStatus, jqXHR) {
-				//             // console.log(data);
-				//             if (data.success) {
-				//                 $( '#msg-reply' ).val('');
-				//                 $('#hc-send-chat-submit').removeAttr( 'disabled' ).text('Send Message');
-				//                 var template = wp.template('hc-chat-block');
-				//                 // var rand = Math.floor(Math.random() * (999 - 10 + 1)) + 10;
-				//                 $('#chat-blocks-wrap').append(template({ data: data }));
-				//             } else {
-				                
-				//             }
-				//         }, 'json');
-				//     } );
-				// });
+				jQuery(document).ready(function($) {
+					jQuery( '#abcd_<?php echo $customer_id; ?>' ).on( 'click', function(e) {						
+						e.preventDefault();
+						// alert($(this).attr('data-id'));
+						var form_id = jQuery(this).attr("data-id");
+						var msg_reply = jQuery('#msg-reply_<?php echo $customer_id; ?>').val();
+						var action = jQuery('input[name=action]').val();
+						var composer = jQuery('input[name=composer]').val();
+						var user_id = $(this).attr('data-id');
+
+						// alert(jQuery(this).attr("data-id"));
+						// alert(form_id);
+						// alert(msg_reply);
+						// alert(action);
+						// alert(composer);
+						// alert(user_id);
+
+						var data=[
+							{
+								name:"dr_support_chat",
+								value:msg_reply
+							},
+							{
+								name:"action",
+								value:action
+							},
+							{
+								name:"composer",
+								value:composer
+							},
+							{
+								name:"user_id",
+								value:user_id
+
+							}
+
+						]
+
+						// var data = msg_reply + " " + action + " " + composer + " " + user_id;
+
+						// alert(data);
+						// alert('Just a function to test the message form');
+				        // e.preventDefault();
+				        // data = $(this).serializeArray();
+				        console.log ( data );
+				        $(this).text('Sending...');
+
+
+				        //  alert(new_wp_paths.new_admin);
+
+				        $.post(new_wp_paths.new_admin, data, function (data, textStatus, jqXHR) {
+				            // console.log(textStatus);
+				            if (data.success) {
+				            	// alert('Yes');
+				                $( '#msg-reply_<?php echo $customer_id; ?>' ).val('');
+				                $('#abcd_<?php echo $customer_id; ?>').removeAttr( 'disabled' ).text('Send Message');
+				                var template = wp.template('hc-chat-block');
+				                // var rand =  .floor(Math.random() * (999 - 10 + 1)) + 10;
+				                $('#chat-blocks-wrap').append(template({ data: data }));
+				                $(this).text('Send Message');
+				            } else {
+				               alert('failed'); 	
+				            }
+				        }, 'json');
+				    } );
+				});
 			</script>
 
 		    <?php
@@ -355,6 +403,8 @@ echo '<div class="fixed-action-btn"><button class="btn-large red" style="border-
 //echo '<button type="submit" style="float: right;" class="btn-large waves-effect waves-light orange">Prescribe selected</button>';
 echo '</form>';
 ?>
+
+
 
 <style>
 th {

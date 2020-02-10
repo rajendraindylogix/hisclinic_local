@@ -2879,7 +2879,7 @@ jQuery(function($){
     $( '#hc-send-chat-message-backend' ).on( 'submit', function(e) {
 
 
-        alert('Hellll');
+        //alert('Hellll');
 
         e.preventDefault();
 
@@ -2896,6 +2896,8 @@ jQuery(function($){
             // console.log(data);
             
             if (data.success) {
+
+                alert('sent');
                 
                 $( '#msg-reply' ).val('');
                 $('#hc-send-chat-submit').removeAttr( 'disabled' ).text('Send Message');
@@ -2914,3 +2916,5 @@ jQuery(function($){
     } );
     
 });
+
+
